@@ -1,0 +1,286 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Freeman&display=swap');
+
+.project{
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    min-height: 100vh;
+        
+    background: #2D2D2D;
+
+    .analyzer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 46px 59px;
+        gap:30px;
+
+        nav{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            align-self: stretch;
+
+            .logo{
+                color: #FFF;
+                font-family: Freeman;
+                font-size: 30px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+            }
+
+            .more{
+                display: flex;
+                align-items: center;
+                gap: 30px;
+
+                .database{
+                    width: 45px;
+                    height: 45px;
+                }
+
+                .report{
+                    width: 48px;
+                    height: 48px;
+                }
+            }
+        }
+
+        main{
+            display: flex;
+            padding: 50px 58px;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 40px;
+            flex: 1 0 0;
+            align-self: stretch;
+
+            border-radius: 30px;
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            background: rgba(255, 255, 255, 0.07);
+            backdrop-filter: blur(17.399999618530273px);
+
+            .options{
+                display: flex;
+                align-items: center;
+                gap: 30px;
+
+                .option{
+                    display: flex;
+                    padding: 8px 20px;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 10px;
+                    cursor: pointer;
+
+                    border-radius: 6px;
+                    border: 1px solid rgba(255, 255, 255, 0.12);
+                    background: rgba(255, 255, 255, 0.30);
+                    backdrop-filter: blur(14.699999809265137px);
+
+                    color: #FFF;
+                    font-family: Freeman;
+                    font-size: 24px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                }
+
+                .active{
+                    background: rgba(17, 17, 17, 0.575) !important;
+                }
+            }
+
+            .content{
+                display: flex;
+                padding: 30px 72px 0px 72px;
+                flex-direction: column;
+                justify-content: space-between;
+                align-items: center;
+                flex: 1 0 0;
+                align-self: stretch;
+                min-height: 650px;
+
+                border-radius: 30px;
+                border: 1px solid rgba(255, 255, 255, 0.20);
+                background: rgba(255, 255, 255, 0.10);
+                backdrop-filter: blur(12.300000190734863px);
+
+                .seasons{
+                    display: flex;
+                    align-items: center;
+                    gap: 16px;
+                    align-self: stretch;
+
+                    .season{
+                        display: flex;
+                        padding: 2px 10px 4px 10px;
+                        justify-content: center;
+                        align-items: center;
+                        gap: 10px;
+                        cursor: pointer;
+
+                        border-radius: 4px;
+                        border: 1px solid rgba(255, 255, 255, 0.27);
+                        background: rgba(255, 255, 255, 0.13);
+                        backdrop-filter: blur(10.5px);
+
+                        color: #FFF;
+                        font-family: Freeman;
+                        font-size: 20px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: normal;
+                    }
+
+                    .active{
+                        background: rgba(17, 17, 17, 0.575) !important;
+                    }
+                }
+
+                .layout{
+                    display: flex;
+                    justify-content: center;
+                    align-items: flex-start;
+                    gap: 87px;
+                    flex: 1 0 0;
+                    padding: 50px 0 0 0;
+                    align-self: stretch;
+
+                    .col{
+                        display: flex;
+                        flex-direction: column;
+                        align-items: flex-start;
+                        gap: 144px;
+
+                        .s1,.s4{
+                            display: grid;
+                            grid-template-columns: 1fr 1fr;
+                            grid-template-rows: 1fr 1fr;
+                            align-items: flex-start;
+                            gap:43px;
+                            row-gap: 30px;
+
+                            .cat{
+                                width: 133px;
+                                height: 116px;
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+
+                                border-radius: 6px;
+                                border: 4px solid #727272;
+                                color: #FFF;
+                                font-family: Freeman;
+                                font-size: 20px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: normal;
+                            }
+                        }
+
+                        .counter{
+                            width: 296px;
+                            height: 89px;
+                            border-radius: 6px;
+                            border: 4px solid #727272;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+
+                            color: #FFF;
+                            font-family: Freeman;
+                            font-size: 20px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                        }
+                    }
+
+                    .col-mid{
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-between;
+                        align-items: flex-start;
+                        align-self: stretch;
+
+                        .s2{
+                            display: flex;
+                            align-items: center;
+                            gap: 30px;
+
+                            .cat{
+                                width: 133px;
+                                height: 116px;
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+
+                                border-radius: 6px;
+                                border: 4px solid #727272;
+                                color: #FFF;
+                                font-family: Freeman;
+                                font-size: 20px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: normal;
+                            }
+                        }
+
+                        .s3{
+                            display: flex;
+                            align-items: center;
+                            gap: 30px;
+                            align-self: stretch;
+
+                            .cat7{
+                                display: flex;
+                                height: 116px;
+                                padding: 10px;
+                                align-items: center;
+                                justify-content: center;
+                                gap: 10px;
+                                flex: 1 0 0;
+
+                                border-radius: 6px;
+                                border: 4px solid #727272;
+                                color: #FFF;
+                                font-family: Freeman;
+                                font-size: 20px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: normal;
+                            }
+                        }
+
+                        .entry{
+                            width: 296px;
+                            height: 89px;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+
+                            border-radius: 6px;
+                            border-top: 4px solid #727272;
+                            border-right: 4px solid #727272;
+                            border-left: 4px solid #727272;
+
+                            color: #FFF;
+                            font-family: Freeman;
+                            font-size: 20px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
